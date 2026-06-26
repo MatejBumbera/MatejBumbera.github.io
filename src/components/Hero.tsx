@@ -29,7 +29,7 @@ export const Hero: React.FC = () => {
             <ChevronRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
           </a>
           
-          <a href="#" className="group inline-flex items-center justify-center px-6 py-3 rounded-xl glass-card text-stone-300 font-medium transition-all duration-300 hover:bg-warm-800 hover:border-white/10 hover:scale-105">
+          <a href="/MatejBumbera_CV.pdf" download="MatejBumbera_CV.pdf" className="group inline-flex items-center justify-center px-6 py-3 rounded-xl glass-card text-stone-300 font-medium transition-all duration-300 hover:bg-warm-800 hover:border-white/10 hover:scale-105">
             <Download className="mr-2 w-4 h-4 text-stone-400 group-hover:text-crimson-500 transition-colors" />
             Download CV (PDF)
           </a>
